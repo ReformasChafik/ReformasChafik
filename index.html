@@ -275,6 +275,37 @@
   </div>
 </section>
 
+<section id="resenas">
+  <p class="section-tag">Lo que dicen mis clientes</p>
+  <h2 class="section-title">Reseñas</h2>
+  <div class="resenas-layout">
+    <div>
+      <div class="resenas-lista" id="resenasList">
+        <div class="resena-card">
+          <div class="resena-header">
+            <div class="resena-nombre">María G.</div>
+            <div class="resena-stars">★★★★★</div>
+          </div>
+          <p class="resena-texto">Reformamos el baño completo y quedó espectacular. Mostafa muy profesional, limpio y cumplió los plazos. Sin duda lo recomiendo.</p>
+          <div class="resena-fecha">Marzo 2026</div>
+        </div>
+      </div>
+    </div>
+    <div class="resena-form">
+      <h3>Deja tu reseña</h3>
+      <input type="text" id="resNombre" placeholder="Tu nombre" maxlength="40">
+      <div class="stars-select" id="starsSelect">
+        <span data-v="1">★</span>
+        <span data-v="2">★</span>
+        <span data-v="3">★</span>
+        <span data-v="4">★</span>
+        <span data-v="5">★</span>
+      </div>
+      <textarea id="resTexto" placeholder="Cuéntanos tu experiencia..."></textarea>
+      <button onclick="enviarResena()">Publicar reseña</button>
+    </div>
+  </div>
+</section>
 <footer>
   <div class="footer-logo">Reformas Chafik</div>
   <div class="footer-copy">© 2026 Mostafa Chafik · Gandía, Valencia</div>
